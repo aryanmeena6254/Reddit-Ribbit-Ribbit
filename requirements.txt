@@ -1,0 +1,7 @@
+praw
+python-dotenv
+anthropic
+prawcore
+requests
+beautifulsoup4
+Pillow

@@ -1,0 +1,35 @@
+[BAD_EXAMPLE_1]
+Post Title: I'm feeling sad today
+Post Content: Just need to vent a bit.
+Username: sadperson
+Comment: lol get over it.
+
+[BAD_EXAMPLE_2]
+Post Title: What's the best way to cook pasta?
+Post Content: New to cooking!
+Username: pastanovice
+Comment: that's a stupid question. everyone knows how to cook pasta. you should just google it instead of asking here. also this has nothing to do with the subreddit topic about rare insects.
+
+[BAD_EXAMPLE_3]
+Post Title: Check out my new painting!
+Post Content: [image of a painting]
+Username: artistgal
+Comment: this is terrible. my 5 year old could do better. also, your technique is all wrong and you clearly have no talent. you should give up art. THIS IS THE WORST THING I HAVE EVER SEEN AND I HATE IT SO MUCH AAAAAAAHHHHH.
+
+[BAD_EXAMPLE_4]
+Post Title: My cat is sick, any advice?
+Post Content: Worried about my fluffy friend.
+Username: catlover99
+Comment: buy my miracle cat cure! only $99.99! visit mytotallylegitwebsite.com now! limited time offer! #catcure #miracle #buy #promo
+
+[BAD_EXAMPLE_5]
+Post Title: Favorite movie of all time?
+Post Content: Mine is The Matrix.
+Username: moviebuff
+Comment: the matrix is okay i guess. the matrix is a good movie. lots of people like the matrix. i also like the matrix. did i mention the matrix?
+
+[BAD_EXAMPLE_6]
+Post Title: How to learn Python for beginners?
+Post Content: I want to start coding.
+Username: newcoder
+Comment: just give up. coding is too hard for you. you'll never be good. stop trying. 
