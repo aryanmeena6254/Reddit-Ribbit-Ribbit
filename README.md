@@ -63,47 +63,19 @@ graph TD
 ## 📁 Project File Structure
 
 ```text
-        [ Start Ribbit Agent 🐸 ]
-                 |
-                 v
-        +-------------------------+
-        |  < Scan Subreddits >    |<---+
-        |  <  for New Posts  >    |    | (No Match / Time Not OK / After Logging)
-        +-----------|-------------+    |
-                    | (Post Found)     |
-                    v                  |
-        +-------------------------+    |
-        |  < Match Keywords  >    | No |
-        |  <   in Title?     >    |----+
-        +-----------|-------------+
-                    | (Yes)
-                    v
-        +-------------------------+
-        |  < Time Since Last >    | No
-        |  <  Comment OK? ⏱️>     |---+
-        +-----------|-------------+    |
-                    | (Yes)            |
-                    v                  |
-        [ Process Post Content   ]     |
-        [ Text, URLs, Images 🖼️ ]      |
-                    |                  |
-                    v                  |
-        [ Fetch Persona &        ]     |
-        [   Brain Files 🧠      ]      |
-                    |                  |
-                    v                  |
-        [ Generate Comment with   ]    |
-        [     Gemini AI ✨      ]      |
-                    |                  |
-                    v                  |
-        [ Post Comment to Reddit ✅]   |
-                    |                  |
-                    v                  |
-        [ Log Replied Post &      ]    |
-        [  Update Timestamp 💾   ]     |
-                    |                  |
-                    +------------------+
-
+Reddit-Ribbit-Ribbit/
+├── .env                                # Stores your API keys and credentials (KEEP THIS SECRET!)
+├── README.md                           # You are here! 🌟
+├── requirements.txt                    # Lists Python dependencies for the project
+├── ribbit_agent.py                     # The main Python script that runs the bot 🤖
+├── bot_brain_files/                    # Folder containing the bot's personality and knowledge
+│   ├── persona_and_instructions.txt    # Defines the bot's core persona and general instructions
+│   ├── good_comment_examples.txt       # Examples of good comments for the bot to learn from
+│   ├── knowledge_snippets.txt          # Specific facts or info for the bot
+│   ├── output_rules.txt                # Strict rules for the bot's output (e.g., lowercase, emojis)
+│   ├── avoid_these_comments.txt        # Examples of comments the bot should NOT make
+│   └── replied_posts.txt               # Keeps track of posts already replied to (created by script)
+└── img/                                # Directory for temporarily storing downloaded images (created by script)
 ```
 
 ---
